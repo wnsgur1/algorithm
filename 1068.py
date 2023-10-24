@@ -1,15 +1,19 @@
 n = int(input())
+
 node = list(map(int,input().split()))
-dell = int(input())
+delete = int(input())
 cnt = 0
+array = []
+
+for i in range(delete, n):
+    if i in node:
+        node.remove(i)
 
 
-for i in range(n):
-    if i%2 == 0 and i/2 == dell:
-        continue
-    elif 1%2!=0 and i/2-1 == dell:
+for i in range(len(node)):
+    if i in node:
         continue
     else:
-        if i*2+1 > n:
-            cnt+=1
-print(cnt)
+        cnt+=1
+
+print(cnt-1)
