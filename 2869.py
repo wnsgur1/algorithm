@@ -10,5 +10,6 @@ while(True):
         break
     a-=B
     
+    
 
 print(day)
