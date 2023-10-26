@@ -1,15 +1,7 @@
-A,B,V = map(int,input().split())
-
-a = 0
-day = 0
-
-while(True):
-    day+=1
-    a+=A
-    if (a>=V):
-        break
-    a-=B
-    
-    
-
-print(day)
+a,b,v=map(int,input().split())
+dal = (v-b) / (a-b)
+if dal%1>0 :
+    dal -= (dal % 1)
+    dal+=1
+dal=int(dal)
+print(dal)
