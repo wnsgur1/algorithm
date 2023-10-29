@@ -1,12 +1,11 @@
 n = int(input())
 for i in range(n):
-    cnt = 1
-    list = input()
-    a = []
-    for i in list:
-        a.append(i)
+    a = input()
+    data = []
+    result = 0
 
-    for j in range(len(a)-1):
-        if a[j] != a[j+1]:
-            cnt+=1
-    print(cnt)
+    for i in range(len(a)):
+        if int(a[i]) not in data:
+            result+=1
+            data.append(int(a[i]))
+    print(result)
