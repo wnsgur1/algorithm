@@ -5,4 +5,4 @@ for i in range(n):
     list.append(a)
 
 for i in range(1, len(a)+1):
-    mldlklkz
+    print(i)
