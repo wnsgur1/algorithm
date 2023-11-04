@@ -4,5 +4,10 @@ for i in range(n):
     a = input()
     list.append(a)
 
-for i in range(1, len(a)+1):
-    print(i)
+b=1
+
+while(1):
+    if len({i[-b:]for i in list}) == n:
+        print(b)
+        break
+    b+=1
