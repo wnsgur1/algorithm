@@ -1,3 +1,3 @@
 n = int(input())
 for i in range(n):
-    print("아 바인드 바쁘다 바뻐")
+    print("자살 마렵다")
