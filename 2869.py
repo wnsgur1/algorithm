@@ -4,4 +4,3 @@ if dal%1>0 :
     dal -= (dal % 1)
     dal+=1
 dal=int(dal)
-print(dal)
