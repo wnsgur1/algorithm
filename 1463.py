@@ -55,12 +55,14 @@ def third(a):
 def main():
     
     x = int(input())
+    if(x == 1):
+        print(x)
+    else:
+        a = first(x)
+        b = second(x)
+        c = third(x)
 
-    a = first(x)
-    b = second(x)
-    c = third(x)
-
-    print((a if a<b else b) if ((b if b<a else a)<c) else c)
+        print((a if a<b else b) if ((b if b<a else a)<c) else c)
 
 
 main()
