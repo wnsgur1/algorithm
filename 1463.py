@@ -1,12 +1,55 @@
-a = int(input())
-cnt=0
-
-while(a!=1):
+def first(a):
+    cnt = 0
     if a%3 == 0:
         a = a//3
-    elif a%2 == 0:
+        cnt+=1
+    while (a!= 1):
+        if a%3 == 0:
+            a = a//3
+        elif a%2 == 0:
+            a = a//2
+        else:
+            a-=1
+        cnt+=1
+
+    return cnt
+
+def second(a):
+    cnt = 0
+    if a%2 == 0:
         a = a//2
-    else:
-        a-=1
-    cnt+=1
-print(cnt)
+        cnt+=1
+    while (a!= 1):
+        if a%3 == 0:
+            a = a//3
+        elif a%2 == 0:
+            a = a//2
+        else:
+            a-=1
+        cnt+=1
+    return cnt
+
+def third(a):
+    cnt = 1
+    a-=1
+    while (a!= 1):
+        if a%3 == 0:
+            a = a//3
+        elif a%2 == 0:
+            a = a//2
+        else:
+            a-=1
+        cnt+=1
+
+    return cnt
+
+def main():
+
+    a = int(input())
+    cnt=0
+
+    print(first(a))
+    print(second(a))
+    print(third(a))
+
+main()
