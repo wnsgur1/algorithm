@@ -3,7 +3,8 @@ def first(a):
     if a%3 == 0:
         a = a//3
         cnt+=1
-    while (a!= 1):
+
+    while (a != 1):
         if a%3 == 0:
             a = a//3
         elif a%2 == 0:
@@ -11,6 +12,7 @@ def first(a):
         else:
             a-=1
         cnt+=1
+
 
     return cnt
 
@@ -19,6 +21,7 @@ def second(a):
     if a%2 == 0:
         a = a//2
         cnt+=1
+
     while (a!= 1):
         if a%3 == 0:
             a = a//3
@@ -27,11 +30,15 @@ def second(a):
         else:
             a-=1
         cnt+=1
+
+
+
     return cnt
 
 def third(a):
     cnt = 1
     a-=1
+
     while (a!= 1):
         if a%3 == 0:
             a = a//3
@@ -41,15 +48,19 @@ def third(a):
             a-=1
         cnt+=1
 
+
+
     return cnt
 
 def main():
+    
+    x = int(input())
 
-    a = int(input())
-    cnt=0
+    a = first(x)
+    b = second(x)
+    c = third(x)
 
-    print(first(a))
-    print(second(a))
-    print(third(a))
+    print((a if a<b else b) if ((b if b<a else a)<c) else c)
+
 
 main()
