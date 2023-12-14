@@ -1,6 +1,8 @@
 def move(c):
     global Boxs
-    print(c)
+    for i in range(len(c)):
+        if c[i] >= Boxs[i]:
+             Boxs.pop(0)
 
             
 
