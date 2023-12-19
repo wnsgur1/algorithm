@@ -1,6 +1,6 @@
 a = int(input())
-n = int(input())
 for i in range(a):
-    for j in range(n):
-        mbti = list(input().split())
-    
+    dis = 0
+    n = int(input())
+    mbti = map(list, input().split())
+    print(mbti)
