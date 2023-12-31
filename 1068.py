@@ -16,6 +16,4 @@ for i in range(len(node)):
         continue
     else:
         cnt+=1
-
-
 print(cnt)
