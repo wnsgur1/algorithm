@@ -10,7 +10,6 @@ for i in range(delete, n):
         node.remove(i)
 node.remove(delete)
 
-
 for i in range(len(node)):
     if i in node:
         continue
