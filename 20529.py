@@ -4,3 +4,4 @@ for i in range(a):
     n = int(input())
     mbti = map(list, input().split())
     print(mbti)
+    
