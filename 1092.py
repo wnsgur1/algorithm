@@ -4,7 +4,6 @@ def move(c):
         if c[i] >= Boxs[i]:
              Boxs.pop(0)
 
-
 n = int(input())
 Crane = list(map(int,input().split()))
 Crane.sort(reverse= True)
