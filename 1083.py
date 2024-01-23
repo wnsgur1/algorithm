@@ -18,4 +18,5 @@ for i in range(len(arr)):
     if arr[i] != -2 and i not in arr:
         count += 1
         
+        
 print(count)
