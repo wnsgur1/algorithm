@@ -32,7 +32,6 @@ def dfs(V):
         if not visited1[i] and graph[V][i]:  # 만약 i값을 방문하지 않았고 V와 연결이 되어 있다면
             dfs(i)  # 해당 i 값으로 dfs를 돈다.(더 깊이 탐색)
 
-
 dfs(V)
 print()
 bfs(V)
