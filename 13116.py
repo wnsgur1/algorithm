@@ -1,6 +1,7 @@
 n = int(input())
 
 for i in range(n):
+    
     aList = []
     bList = []
     a, b = map(int,input().split())
