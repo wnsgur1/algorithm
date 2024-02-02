@@ -1,7 +1,5 @@
 while(True):
-    
     name, age, kg = input().split()
-
     if name == '#':
         break
 
