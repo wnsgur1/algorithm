@@ -5,6 +5,7 @@ input = sys.stdin.readline
  
 X, Y = map(int, input().split())
 Z = (Y * 100) // X
+
 if Z >= 99:
     print(-1)
 else:
