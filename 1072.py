@@ -16,9 +16,10 @@ else:
     while left <= right:
 
         mid = (left + right) // 2
-        
+
         if (Y+mid)*100 // (X+mid) <= Z:
             left = mid+1
+            
         else:
             answer = mid
             right = mid - 1
