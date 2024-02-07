@@ -26,6 +26,7 @@ def bfs(V):
 
 
 def dfs(V):
+    
     visited1[V] = True  # 해당 V값 방문처리
     print(V, end=" ")
     for i in range(1, N + 1):
