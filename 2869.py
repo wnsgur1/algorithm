@@ -1,5 +1,4 @@
 a,b,v=map(int,input().split())
-
 dal = (v-b) / (a-b)
 
 if dal%1>0 :
