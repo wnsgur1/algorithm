@@ -15,8 +15,6 @@ time = 0
 if Boxs[0] > Crane[0]:
         print(-1)
         
-
-        
 else:
     while len(Boxs) > 0:
         move(Crane)
