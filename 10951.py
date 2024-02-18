@@ -4,4 +4,3 @@ while True:
         print(A+B)
     except:
         break
-    
