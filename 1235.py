@@ -3,7 +3,6 @@ list = []
 for i in range(n):
     a = input()
     list.append(a)
-
 b=1
 
 while(1):
