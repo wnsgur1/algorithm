@@ -1,5 +1,6 @@
 n = int(input())
 list = []
+
 for i in range(n):
     a = input()
     list.append(a)
