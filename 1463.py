@@ -14,6 +14,7 @@ for i in range(1, n):
         
     list1.pop(i)
     list1.insert(i, min(list2))
+    
     print(list2)
 
 
