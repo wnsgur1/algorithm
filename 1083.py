@@ -14,6 +14,7 @@ count = 0
 
 dfs(k, arr)
 count = 0
+
 for i in range(len(arr)):
     if arr[i] != -2 and i not in arr:
         count += 1
