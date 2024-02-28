@@ -6,6 +6,7 @@ for i in range(n):
     bList = []
     a, b = map(int,input().split())
     c = 0
+    
     while(a > 0 or b > 0):
 
         aList.append(a)
