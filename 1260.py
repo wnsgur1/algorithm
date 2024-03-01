@@ -1,7 +1,6 @@
 from collections import deque
 
 N, M, V = map(int, input().split())
-
 graph = [[False] * (N + 1) for _ in range(N + 1)]
 
 for _ in range(M):
