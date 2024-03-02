@@ -19,5 +19,6 @@ for i in range(n):
         for k in bList:
             if j == k and j > c:
                 c = j
+                
     print(c*10)
 
