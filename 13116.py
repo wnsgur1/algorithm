@@ -11,7 +11,6 @@ for i in range(n):
 
         aList.append(a)
         bList.append(b)
-
         a = a//2
         b = b//2
 
@@ -19,6 +18,6 @@ for i in range(n):
         for k in bList:
             if j == k and j > c:
                 c = j
-                
+
     print(c*10)
 
