@@ -13,7 +13,6 @@ visited2 = [False] * (N + 1)  # bfs의 방문기록
 
 
 def bfs(V):
-    
     q = deque([V])  # pop메서드의 시간복잡도가 낮은 덱 내장 메서드를 이용한다
     visited2[V] = True  # 해당 V 값을 방문처리
     while q:  # q가 빌때까지 돈다.
@@ -26,7 +25,6 @@ def bfs(V):
 
 
 def dfs(V):
-
     visited1[V] = True  # 해당 V값 방문처리
     print(V, end=" ")
     for i in range(1, N + 1):
