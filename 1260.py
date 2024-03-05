@@ -11,7 +11,6 @@ for _ in range(M):
 visited1 = [False] * (N + 1)  # dfs의 방문기록
 visited2 = [False] * (N + 1)  # bfs의 방문기록
 
-
 def bfs(V):
     q = deque([V])  # pop메서드의 시간복잡도가 낮은 덱 내장 메서드를 이용한다
     visited2[V] = True  # 해당 V 값을 방문처리
