@@ -1,4 +1,5 @@
 def move(c):
+
     global Boxs
     for i in range(len(c)):
         if c[i] >= Boxs[i]:
@@ -16,6 +17,7 @@ if Boxs[0] > Crane[0]:
         print(-1)
         
 else:
+    
     while len(Boxs) > 0:
         move(Crane)
         time+=1
