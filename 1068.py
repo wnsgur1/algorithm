@@ -3,7 +3,6 @@ node = list(map(int,input().split()))
 delete = int(input())
 cnt = 0
 array = []
-
 for i in range(delete, n):
     if i in node:
         node.remove(i)
