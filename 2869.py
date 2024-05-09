@@ -1,8 +1,7 @@
 a,b,v=map(int,input().split())
-dal = (v-b) / (a-b)
-
-if dal%1>0 :
-    dal -= (dal % 1)
-    dal+=1  
-
-dal=int(dal)
+c = (v-b) % (a-b)
+d = (v-b) // (a-b)
+if(c == 0):
+    print(d)
+else:
+    print(d+1)
