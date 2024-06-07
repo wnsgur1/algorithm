@@ -5,4 +5,3 @@ if(c == 0):
     print(d)
 else:
     print(d+1)
-    
