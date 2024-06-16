@@ -2,7 +2,6 @@
 import sys
 input = sys.stdin.readline
  
- 
 X, Y = map(int, input().split())
 Z = (Y * 100) // X
 
