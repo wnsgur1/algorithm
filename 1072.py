@@ -18,8 +18,7 @@ else:
         mid = (left + right) // 2
 
         if (Y+mid)*100 // (X+mid) <= Z:
-            left = mid+1
-            
+            left = mid+1 
         else:
             answer = mid
             right = mid - 1
