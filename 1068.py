@@ -1,5 +1,4 @@
 
-
 n = int(input())
 node = list(map(int,input().split()))
 delete = int(input())
