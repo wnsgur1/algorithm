@@ -10,6 +10,7 @@ def dfs(num, arr):
 n = int(input())
 arr = list(map(int, input().split()))
 k = int(input())
+
 count = 0
 
 dfs(k, arr)
