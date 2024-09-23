@@ -4,6 +4,5 @@ while(True):
         break
     if int(age) > 17 or int(kg) >= 80:
         print(name, "Senior")
-
     else:
         print(name, "Junior")
