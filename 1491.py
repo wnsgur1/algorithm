@@ -40,7 +40,7 @@ def solution(N, M):
                     break
             else:
                 break  
-
+        
         # 현재 위치에서 다음 위치로 이동하기
         cur_i = next_i
         cur_j = next_j
