@@ -1,16 +1,3 @@
-def sort(line):
-    list = line
-    listSize = len(list)
-    min = 0
-    for i in range(listSize):
-        min = i
-        for j in range(i+1, listSize):
-            if list[min] < list[j]:
-                min = j
-        list[i], list[min] = list[min], list[i]
-
-    return list
-
 def totalTip(line):
     list = line
     listSize = len(list)    
@@ -19,7 +6,6 @@ def totalTip(line):
             list[i] = list[i]-i
         elif list[i]-i <= 0:
             list[i] = 0
-        print(list[i])
     return sum(list)
 
 if __name__ == "__main__":
@@ -29,7 +15,8 @@ if __name__ == "__main__":
     for i in range(n):
         line.append(int(input()))
 
-    line = sort(line)
+		# 정렬하고 반전
+    line = sorted(line, reverse=True)
     tip = totalTip(line)
 
     print(tip)
