@@ -11,6 +11,7 @@ n, r = map(int, input().split())
 a = factorial(r)
 b = factorial(n)
 c = factorial(n-r)
-
 result = b//(c*a)
+
+
 print(result)
