@@ -1,0 +1,22 @@
+def recur(idx, price):
+
+
+    if idx == N-1:
+        answer = ??
+        return
+    if idx > N-1:
+        return
+
+
+    recur(idx+interview[idx][0], price+interview[idx][1])
+    recur(idx+1, price)
+
+    return 0 
+
+N = int(input())
+
+answer = float('inf')
+
+interview = [list(map(int, input().split())) for _ in range(N)]
+
+recur(0, 0)
