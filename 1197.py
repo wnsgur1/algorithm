@@ -38,5 +38,7 @@ while q:
         if not visited[next[1]]:  # 아직 방문하지 않은 노드만 추가
             heapq.heappush(q, next)
 
+
+
 # 최소 스패닝 트리의 가중치 출력
 print(answer)
