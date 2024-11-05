@@ -40,5 +40,6 @@ while q:
 
 
 
+
 # 최소 스패닝 트리의 가중치 출력
 print(answer)
