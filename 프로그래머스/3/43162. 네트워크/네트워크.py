@@ -5,7 +5,7 @@ def solution(n, computers):
     def dfs(node):
         v[node] = True
         for i in range(n):
-            if computers[node][i] == 1 and not v[i]:
+            if computers[node][i] == 1 and v[i]==False:
                 dfs(i)
     
     for i in range(n):
