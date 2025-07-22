@@ -13,7 +13,6 @@ def solution(n, computers):
             dfs(i)
             answer+=1
     
-    
     return answer
 
 
