@@ -9,7 +9,6 @@ if Z >= 99:
     print(-1)
     
 else:
-    
     answer = 0
     left = 1
     right = X
