@@ -1,6 +1,7 @@
 now = list(map(int, input().split(":")))
 start = list(map(int, input().split(":")))
 
+
 now_sec = now[0] * 3600 + now[1] * 60 + now[2]
 start_sec = start[0] * 3600 + start[1] * 60 + start[2]
 
