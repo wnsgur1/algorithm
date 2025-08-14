@@ -11,6 +11,5 @@ elif b>a:
 else:
     print(0)
 
-
 for i in list:
     print(i, end=' ')
